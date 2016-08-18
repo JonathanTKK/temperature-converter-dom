@@ -1,3 +1,51 @@
+body{
+  background-color: #BEC3C4;
+}
+
 h1 {
-  color: blue;
+ color: #858C8F;
+}
+
+button{
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.whole{
+  text-align: center;
+  border: 1px dotted red;
+  margin: auto;
+}
+
+.ux{
+  height: 300px;
+  width: 500px;
+  border:1px dotted blue;
+  margin:auto;
+  position: relative;
+}
+
+#input{
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#output{
+  height: 100px;
+  width: 500px;
+  background-color: red;
+  margin:auto;
+  color: black;
+  /*position: relative;*/
+}
+
+#result{
+  height:100px;
+  margin: auto;
+  padding-top: 30px;
+  color: black;
+  font-size: 34px;
 }
