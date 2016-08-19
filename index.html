@@ -11,15 +11,18 @@
 <body>
   <div class="whole">
       <h1>Temperature Converter</h1>
-
       <div class="ux">
+        <!-- <div class="input">
+
+        </div> -->
         <form class="" action="index.html" method="post">
           <input id="input" type="number" placeholder="Eg. 34"><br><br>
-          <input id="fahren" type="radio" name="unitType">F
-          <input id="celcius" type="radio" name="unitType" checked>C<br><br>
+          <input id="fahren" type="radio" name="unitType">°F
+          <input id="celcius" type="radio" name="unitType" checked>°C<br><br>
           <button id="submit" type="button" name="Submit">Submit</button>
           <button id="clear" type="button" name="clear">Clear</button>
         </form>
+      </br>
 
       <div id="output">
           <div id="result">Input Value to convert</div>
@@ -27,11 +30,10 @@
     </div>
   </div>
 
-<button id="toggle" type="button" name="changeColor">Color Toggle!</button>
-
   <script type="text/javascript" src="js/script.js"></script>
-
-
+  <!--Another way is to include DOMContentLoaded within JS. It waits for
+  HTML content to load before loading the JS.
+  document.getElementById("...").addEventListenr(DOMContentLoaded,function)-->
 
 </body>
 </html>

@@ -15,14 +15,14 @@ button{
 
 .whole{
   text-align: center;
-  border: 1px dotted red;
+  /*border: 1px dotted red;*/
   margin: auto;
 }
 
 .ux{
   height: 300px;
   width: 500px;
-  border:1px dotted blue;
+  /*border:1px dotted blue;*/
   margin:auto;
   position: relative;
 }
@@ -36,7 +36,7 @@ button{
 #output{
   height: 100px;
   width: 500px;
-  background-color: red;
+  background-color: white;
   margin:auto;
   color: black;
   /*position: relative;*/
@@ -48,4 +48,9 @@ button{
   padding-top: 30px;
   color: black;
   font-size: 34px;
+}
+
+#celcius, #fahren {
+  font-size: 20px;
+
 }
