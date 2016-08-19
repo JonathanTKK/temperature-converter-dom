@@ -12,11 +12,12 @@
   <div class="whole">
       <h1>Temperature Converter</h1>
       <div class="ux">
-        <!-- <div class="input">
-
-        </div> -->
+        <div id="instruct">
+            Converting from <span id="convertFrom">Fahrenheit</span>.
+        </div>
         <form class="" action="index.html" method="post">
           <input id="input" type="number" placeholder="Eg. 34"><br><br>
+          <p id="advice">Convert to: </p>
           <input id="fahren" type="radio" name="unitType">°F
           <input id="celcius" type="radio" name="unitType" checked>°C<br><br>
           <button id="submit" type="button" name="Submit">Submit</button>

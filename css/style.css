@@ -27,6 +27,12 @@ button{
   position: relative;
 }
 
+#instruct{
+  width: 258px;
+  margin:auto;
+  text-align: left;
+}
+
 #input{
   height: 30px;
   font-size: 25px;
@@ -50,7 +56,12 @@ button{
   font-size: 34px;
 }
 
+#advice{
+  display: inline-block;
+}
+
 #celcius, #fahren {
   font-size: 20px;
+  display:inline-block;
 
 }

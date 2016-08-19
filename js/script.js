@@ -3,9 +3,9 @@ console.log('Hello, front end');
 var userInput, output, toggleCheck = 0;
 
 document.getElementById('submit').addEventListener('click',getInput);
-
 document.getElementById('clear').addEventListener('click',clear);
-
+document.getElementById('fahren').addEventListener('click',switchUnitType);
+document.getElementById('celcius').addEventListener('click',switchUnitType);
 
 
 //document.getElementById('toggle').addEventListener('click',toggle);
@@ -51,7 +51,7 @@ document.getElementById('clear').addEventListener('click',clear);
       }
 
 
-      document.getElementById('result').textContent = output + "°C" ;
+      document.getElementById('result').textContent = output + "°F" ;
     }
     if(document.getElementById("celcius").checked===true){
       output = (Math.round((userInput-32)/(5/9))/10);
@@ -66,8 +66,15 @@ document.getElementById('clear').addEventListener('click',clear);
       else if (output<10) {
         document.getElementById('output').style.backgroundColor = "blue";
         }
-      document.getElementById('result').textContent = output + "°F";
+      document.getElementById('result').textContent = output + "°C";
       }
+    }
 
-
+  function switchUnitType(){
+    if(document.getElementById('celcius').checked===true){
+        document.getElementById('convertFrom').textContent = "Fahrenheit";
+      }
+        else{
+          document.getElementById('convertFrom').textContent = "Celcius";
+        }
     }
